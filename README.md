@@ -8,3 +8,7 @@ This Python script efficiently utilizes the Nmap library to perform network scan
     The scan method is called on the PortScanner object nm with the target and scan arguments (-sV for service version detection).
     The script then iterates through all hosts in the scan results and prints information about each host, including hostname, state, protocols, ports, states, services, and versions.
     The information is displayed in a structured format for easy interpretation of the scan results.
+
+    If you are running the program on the command line interface, clone or download the .py file.
+    Change the file permission or mode using chmod +x filename
+    Then run the code to scan your target ip address or domain name.
